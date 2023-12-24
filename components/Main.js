@@ -17,9 +17,18 @@ const manrope = Manrope({
   subsets: ['latin'],
 });
 function Main() {
+  const [darkMode, setDarkMode] = useState(false)
+
+  useEffect(() => {
+      if (typeof window !== 'undefined') {
+          const theme = localStorage.getItem('theme')
+          if (theme === 'dark') setDarkMode(true)
+      }
+
+  }, [])
   return (
-    <div>
-      <h1 className={`${raleway.className} text-2xl font-bold p-5`}>Past Projects</h1>
+    <div className='dark:text-white dark:bg-black'>
+      <h1 className={`${manrope.className} text-3xl font-bold p-5`}>Past Projects</h1>
       <Image
         src="/mockup.png"
         width={3000}
