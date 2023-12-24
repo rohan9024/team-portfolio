@@ -16,7 +16,7 @@ const manrope = Manrope({
   weight: ['400', '500', '600', '700', '800'],
   subsets: ['latin'],
 });
-function Main() {
+function Projects() {
   const [darkMode, setDarkMode] = useState(false)
 
   useEffect(() => {
@@ -51,7 +51,7 @@ function Main() {
         className='object-contain w-screen md:w-[1000px] h-auto'
       />
       <Image
-        src="/examcell.png"
+        src="/examcell.jpg"
         width={3000}
         height={3000}
         alt="mockup icon"
@@ -68,4 +68,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Projects

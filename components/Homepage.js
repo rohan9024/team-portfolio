@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
-import Main from './Main'
 import First from './First'
+import Projects from './Projects'
+import Services from './Services'
 
 function Homepage() {
   const [darkMode, setDarkMode] = useState(false)
@@ -18,7 +19,8 @@ function Homepage() {
     <div className='dark:text-white dark:bg-black'>
         <Navbar />
         <First />
-        <Main />
+        <Services />
+        <Projects />
     </div>
   )
 }

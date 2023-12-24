@@ -66,7 +66,7 @@ function Navbar() {
                 onClick={() => {
                   darkMode ? setDarkMode(false) : setDarkMode(true)
                 }}
-                className='md:hidden flex transition ease-in  hover:text-gray-300  text-gray-500 duration-300 cursor-pointer hover:scale-105 hover:-translate-y-3' >
+                className=' flex transition ease-in  hover:text-gray-300  text-gray-500 duration-300 cursor-pointer hover:scale-105 hover:-translate-y-3' >
                 <Image
                   src="/darkMode.png"
                   width={40}
@@ -81,7 +81,7 @@ function Navbar() {
                   onClick={() => {
                     darkMode ? setDarkMode(false) : setDarkMode(true)
                   }}
-                  className='md:hidden flex transition ease-in  hover:text-gray-300  text-gray-500 duration-300 cursor-pointer hover:scale-105 hover:-translate-y-3' >
+                  className=' flex transition ease-in  hover:text-gray-300  text-gray-500 duration-300 cursor-pointer hover:scale-105 hover:-translate-y-3' >
                   <Image
                     src="/lightMode.png"
                     width={40}
