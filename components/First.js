@@ -34,7 +34,7 @@ function First() {
         width={3000}
         height={3000}
         alt="homepageVector icon"
-        className='object-contain w-screen h-auto'
+        className='object-contain w-screen h-auto py-10'
       />
     </div>
   )
